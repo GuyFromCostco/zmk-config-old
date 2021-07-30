@@ -11,14 +11,15 @@
 
 
 #define TIMEOUT 300
-
-&encoder_1 {
-	status = "okay";
-};
-
-&encoder_2 {
-	status = "okay";
-};
+/*
+*&encoder_1 {
+*	status = "okay";
+*};
+*
+*&encoder_2 {
+*	status = "okay";
+*};
+*/
 
 / {
     combos {
