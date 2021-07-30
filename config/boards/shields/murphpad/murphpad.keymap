@@ -19,7 +19,7 @@
 *&encoder_2 {
 *	status = "okay";
 *};
-*/
+
 
 / {
     combos {
@@ -45,7 +45,7 @@
             bindings = <&bt BT_NXT>;
         };
     };
-
+*/
 	sensors {
 		compatible = "zmk,keymap-sensors";
 		sensors = <&encoder_1 &encoder_2>;
