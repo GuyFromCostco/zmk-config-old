@@ -32,8 +32,6 @@
             		, <&pro_micro_a 1  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 	    
 	};
-
- /*  { */
 	encoder_1: encoder_1 {
 		compatible = "alps,ec11";
 		label = "Encoder 1";
@@ -71,5 +69,3 @@
 		com-sequential;
 		prechargep = <0x22>;
 	};
-}; 
-};
