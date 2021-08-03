@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
-
+/*
 &spi1 {
 	compatible = "nordic,nrf-spim";
 	status = "okay";
@@ -25,7 +25,7 @@
 		spi-one-frame = <0x70>;
 		spi-zero-frame = <0x40>;
 	};
-};
+}; */
 
 /*
 / {
